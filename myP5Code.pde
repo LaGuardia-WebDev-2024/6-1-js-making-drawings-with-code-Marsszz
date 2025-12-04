@@ -1,6 +1,6 @@
 //🟢Setup Procedure - Runs Once to Set The Canvas
 void setup() {
-    size(400, 400); 
+    size(700, 400); 
     background(255,255,255,100);
 }
 
@@ -11,8 +11,25 @@ void draw(){
   strokeWeight(3);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Unit Goes Here
-  ellipse(50,50,100,80);
-  
+
+
+  //Snowman #1
+  ellipse(339,82,100,80);
+  ellipse(344,190,170,130);
+  ellipse(344,329,220,160);
+
+    //Snowman #2
+    translate(-250,0);
+  ellipse(339,82,100,80);
+  ellipse(344,190,170,130);
+  ellipse(344,329,220,160);
+
+  //Snowman #3
+    translate(450,0);
+  ellipse(339,82,100,80);
+  ellipse(344,190,170,130);
+  ellipse(344,329,220,160);
+
 
 }
 
