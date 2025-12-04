@@ -7,7 +7,7 @@ void setup() {
 
 //🟢Draw Procedure - Runs on Repeat
 void draw(){
-  fill(255,255,255,0);
+  fill(255,255,255,);
   strokeWeight(3);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Unit Goes Here
@@ -25,7 +25,7 @@ void draw(){
   ellipse(344,329,220,160);
 
   //Snowman #3
-    translate(450,0);
+    translate(500,0);
   ellipse(339,82,100,80);
   ellipse(344,190,170,130);
   ellipse(344,329,220,160);
